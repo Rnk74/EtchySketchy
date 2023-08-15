@@ -1,0 +1,161 @@
+.cell {
+    width: 6px;
+    height: 6px;
+    border: 0;
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    transition: 2s;
+}
+.cell:hover {
+ transition: all;
+}
+
+
+body{
+  background-image: url(https://images.pexels.com/photos/4337198/pexels-photo-4337198.jpeg);
+  background-size:100%;  
+}
+#container{
+    border-style:solid;
+    border-color: #00DDEB;
+    border-width: 8px;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+    ; 
+
+}
+
+.button-64 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing:content-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  padding: 8px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  margin: 25px;
+  width: fit-content;
+  
+}
+
+.button-64:active,
+.button-64:hover {
+  outline: 0;
+}
+
+.button-64 span {
+  background-color: rgb(5, 6, 45);
+  padding: 8px 16px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.button-64:hover span {
+  background: none;
+}
+
+
+footer{
+  color: #00DDEB;
+  font-family: Phantomsans, sans-serif;
+  font-size: 12px;
+
+}
+
+.toggle-btn {
+  display: inline-block;
+  width: 25px;
+  height: 20px;
+  background-color:#AF40FF;
+  border-radius: 15px;
+  position: relative;
+  cursor: pointer;
+  align-self: center;
+}
+.toggle-btn input[type="checkbox"] {
+  display: none;
+}
+
+.toggle-btn .slider {
+  width: 20px;
+  height: 20px;
+  background-color:#00DDEB;
+  border-color: #5B42F3;
+  border: 5px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transition: 0.3s;
+}
+
+.toggle-btn.on .slider {
+  transform: translateX(5px);
+}
+.togtotal{
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing:content-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  padding: 3px;
+  margin: 25px;
+  width: fit-content;
+  gap: 10px;  
+  height: 52px;
+
+}
+.button-64 span {
+  background-color: rgb(5, 6, 45);
+  padding: 8px 16px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+p{
+  color: #ccc;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+
+}
+
+
+.leftColumn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
